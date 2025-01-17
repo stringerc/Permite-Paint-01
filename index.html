@@ -42,9 +42,11 @@
     <!-- Navbar Start -->
     <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
-            <div class="col-lg-6 px-5 text-start">
-                <small><i class="fa fa-map-marker-alt me-2"></i>5239 Brer Rabbit Road, Stone Mountain, GA 30083-1317</small>
-                <small class="ms-4"><i class="fa fa-envelope me-2"></i>customersupport@permitepaints.com</small>
+            <div class="px-5 text-start"> 
+                <center>
+                    <small><i class="fa fa-map-marker-alt me-2"></i>5239 Brer Rabbit Road, Stone Mountain, GA 30083-1317</small>
+                    <small class="ms-4"><i class="fa fa fa-phone-alt me-2"></i>+1 404 242 4842</small>
+                </center>
             </div>
             
         </div>
@@ -60,33 +62,34 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="products.html" class="nav-item nav-link">Products</a>
                     <div class="nav-item dropdown">
                         <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                         <div class="dropdown-menu m-0">
                             <a href="about.html" class="dropdown-item">About Us</a>
                             <a href="about.html#our-commitment" class="dropdown-item">Our Commitment</a>
-                            <a href="about.html#our-history" class="dropdown-item">Our History</a>
                             <a href="about.html#our-manufacturing" class="dropdown-item">Manufacturing</a>
                             <a href="about.html#our-location" class="dropdown-item">Location</a>
+                            <a href="history.html" class="dropdown-item">Our History</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Industries We Serve</a>
                         <div class="dropdown-menu m-0">
                             <a href="index.html#waste-refuse" class="dropdown-item">Waste & Refuse</a>
-                            <a href="donate.html" class="dropdown-item">Truck And Body Aftermarket</a>
-                            <a href="donate.html" class="dropdown-item">Forestry/ Pulp and Paper</a>
-                            <a href="donate.html" class="dropdown-item">Sanitary Sewage</a>
-                            <a href="donate.html" class="dropdown-item">Aerospace</a>
+                            <a href="#industries" class="dropdown-item">Truck Body Aftermarket</a>
+                            <a href="#industries" class="dropdown-item">Forestry/ Pulp and Paper</a>
+                            <a href="#industries" class="dropdown-item">Sanitary Sewage</a>
+                            <a href="#industries" class="dropdown-item">Aerospace</a>
+                            <a href="#industries" class="dropdown-item">Livestock</a>
                         </div>
                     </div>
+                    <a href="products.html" class="nav-item nav-link">Products</a>
                     <a href="ppclabs.html" class="nav-item nav-link">PPC Labs</a>
                     <a href="resources.html" class="nav-item nav-link">Resources</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="contact_us.html" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-outline-light py-2 px-3" href="contact.html">
+                    <a class="btn btn-outline-light py-2 px-3" href="contact_us.html">
                         Get A Quote Now
                         <div class="d-inline-flex btn-sm-square bg-white text-dark rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>
@@ -104,7 +107,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <video src="/img/UpscaleVideo_2_20241115.mp4" autoplay loop muted ></video>
+                    <video id="cover-video" src="/img/UpscaleVideo_2_20241115.mp4" autoplay loop muted ></video>
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -164,7 +167,7 @@
                                 <i class="fa fa-arrow-right"></i>
                             </div>
                         </a>
-                        <a class="btn btn-outline-dark py-2 px-3" href="contact.html">
+                        <a class="btn btn-outline-dark py-2 px-3" href="contact_us.html">
                             Contact Us
                             <div class="d-inline-flex btn-sm-square bg-dark text-white rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
@@ -213,16 +216,16 @@
     <!-- Industries Start -->
     <!-- carousel -->
     
-    <div class="industries-carousel">
+    <div id="industries" class="industries-carousel">
         
         <!-- list item -->
         <div id="waste-refuse" class="list">
             
             <div class="item">
-                <img src="img/dumpster.png">
+                <img src="img/dumpster extended.jpg">
                 
                 <div  class="content">
-                    
+                    <div class="author d-inline-block rounded-pill bg-secondary text-dark py-1 px-3 mb-3">Industries Served</div>
                     <div class="topic">Waste and Refuse</div>
                     
                     <div class="des">
@@ -245,44 +248,63 @@
             <div class="item">
                 <img src="img/truck and body1.jpg">
                 <div class="content">
-                    <div class="topic">TRUCK</div>
-                    <div class="topic">AND BODY AFTERMARKET</div>
+                    <div class="author d-inline-block rounded-pill bg-secondary text-dark py-1 px-3 mb-3">Industries Served</div>
+                    <div class="topic">TRUCK BODY</div>
+                    <div class="topic">AFTERMARKET</div>
                     <div class="des">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
                     </div>
                     <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
+                        <div class="team-social text-center">
+                            <a class="btn btn-outline-light px-3" href="">
+                                More
+                                <div class="d-inline-flex btn-sm-square bg-dark text-white rounded-circle ms-2">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="item">
                 <img src="img/paper industry.jpg">
                 <div class="content">
-                    <div class="author">Industries Served</div>
+                    <div class="author d-inline-block rounded-pill bg-secondary text-dark py-1 px-3 mb-3">Industries Served</div>
                     <div class="topic">Forestry / </div>
                     <div class="topic">Pulp and Paper</div>
                     <div class="des">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
                     </div>
                     <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
+                        <div class="team-social text-center">
+                            <a class="btn btn-outline-light px-3" href="">
+                                More
+                                <div class="d-inline-flex btn-sm-square bg-dark text-white rounded-circle ms-2">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="item">
                 <img src="img/permox_coating1.jpg">
                 <div class="content">
-                    <div class="author">Industries Served</div>
+                    <div class="author d-inline-block rounded-pill bg-secondary text-dark py-1 px-3 mb-3">Industries Served</div>
                     <div class="topic">Sanitary Sewer</div>
                     <div class="topic"></div>
                     <div class="des">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
                     </div>
                     <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
+                        <div class="team-social text-center">
+                            <a class="btn btn-outline-light px-3" href="">
+                                More
+                                <div class="d-inline-flex btn-sm-square bg-dark text-white rounded-circle ms-2">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
@@ -290,15 +312,43 @@
             <div class="item">
                 <img src="img/livestock.jpg">
                 <div class="content">
-                    <div class="author">Industries Served</div>
+                    <div class="author d-inline-block rounded-pill bg-secondary text-dark py-1 px-3 mb-3">Industries Served</div>
                     <div class="topic">Livestock</div>
                     <div class="topic"></div>
                     <div class="des">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
                     </div>
                     <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
+                        <div class="team-social text-center">
+                            <a class="btn btn-outline-light px-3" href="">
+                                More
+                                <div class="d-inline-flex btn-sm-square bg-dark text-white rounded-circle ms-2">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="item">
+                <img src="img/aerospace1.jpg">
+                <div class="content">
+                    <div class="author d-inline-block rounded-pill bg-secondary text-dark py-1 px-3 mb-3">Industries Served</div>
+                    <div class="topic">Aerospace</div>
+                    <div class="topic"></div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <div class="team-social text-center">
+                            <a class="btn btn-outline-light px-3" href="">
+                                More
+                                <div class="d-inline-flex btn-sm-square bg-dark text-white rounded-circle ms-2">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
@@ -318,13 +368,13 @@
                 </div>
             </div>
             <div class="item">
-                <img src="img/truckbody.jpg">
+                <img src="img/truck and body1.jpg">
                 <div class="content">
                     <div class="title">
-                        Truck 
+                        Truck Body
                     </div>
                     <div class="description">
-                        and Body Aftermarket
+                        Aftermarket
                     </div>
                 </div>
             </div>
@@ -361,12 +411,23 @@
                     </div>
                 </div>
             </div>
+            <div class="item">
+                <img src="img/aerospace1.jpg">
+                <div class="content">
+                    <div class="title">
+                        Aerospace
+                    </div>
+                    <div class="description">
+                        
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- next prev -->
 
         <div class="arrows">
-            <button id="prev"><</button>
-            <button id="next">></button>
+            <button id="prev"><i class="fa fa-arrow-left"></i></button>
+            <button id="next"><i class="fa fa-arrow-right"></i></button>
         </div>
         <!-- time running -->
         <div class="time"></div>
@@ -401,7 +462,7 @@
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         
                         <h4 class="mb-3"> Water Reducibles</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
+                        <p class="mb-4">Useful for waste equipment, metal finishing, aircraft interior, and wood</p>
                         <a class="btn btn-outline-primary px-3" href="products.html#water-reducible-enamels">
                             Enamels
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
@@ -421,7 +482,7 @@
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         
                         <h4 class="mb-3">Alkyds</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
+                        <p class="mb-4">Useful for furniture, high traffic areas, metal and outdoor use to withstand the harsh and humid weather</p>
                         <a class="btn btn-outline-primary px-3" href="products.html#alkyd-enamels">
                             Enamels
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
@@ -441,7 +502,7 @@
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         
                         <h4 class="mb-3">Epoxies</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
+                        <p class="mb-4">Useful for waterproofing buildings, structures and tank, as well as floor coating</p>
                         <a class="btn btn-outline-primary px-3" href="products.html#epoxy-coatings">
                             Coatings
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
@@ -460,7 +521,7 @@
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         
                         <h4 class="mb-3">Polyurethanes</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
+                        <p class="mb-4">Useful for furniture, industrial sectors, concrete, steelwork and wood</p>
                         <a class="btn btn-outline-primary px-3" href="products.html#polyurethanes">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
@@ -473,7 +534,7 @@
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         
                         <h4 class="mb-3">Aluminums</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
+                        <p class="mb-4">Useful for protecting and decorating surfaces like metal grills, gates, roofs, pipes and frames</p>
                         <a class="btn btn-outline-primary px-3" href="products.html#aluminums">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
@@ -486,7 +547,7 @@
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         
                         <h4 class="mb-3">Water Reducible Acrylic</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
+                        <p class="mb-4">Useful for ferrous and non-ferrous metals in the waste equipment and tank manufacturing industries</p>
                         <a class="btn btn-outline-primary px-3" href="products.html#water-reducible-acrylics">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
@@ -499,7 +560,7 @@
                     <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                         
                         <h4 class="mb-3">Permox</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
+                        <p class="mb-4">Permox is a standard specification for lining ductile iron pipes and fittings for sanitary sewer lines</p>
                         <a class="btn btn-outline-primary px-3" href="products.html#permox">
                             Learn More
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
@@ -521,7 +582,7 @@
     <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/paint-quote-image.JPG">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="">
                     <div class="d-inline-block rounded-pill bg-secondary text-dark py-1 px-3 mb-3">Get A Quote Now</div>
                     <h1 class="display-6 text-white mb-5">Have A Question?</h1>
                     <p class="text-white-50 mb-0">If you have a question, please fill out the form and one of our customer service representatives will get in contact with you shortly.</p>
@@ -578,7 +639,7 @@
                                 
                                 <div  class="form-item webform-component webform-component-textarea webform-component--comments">
                                     <label for="edit-submitted-comments"><strong>Additional Comments</strong> </label>
-                                   <div class="form-textarea-wrapper resizable"><textarea id="edit-submitted-comments" name="submitted[comments]" cols="55" rows="5" class="form-textarea"></textarea></div>
+                                   <div class="form-textarea-wrapper"><textarea id="edit-submitted-comments" name="submitted[comments]" cols="55" rows="5" class="form-textarea" style="width: 100%;"></textarea></div>
                                   </div>
                                 
                                 <div class="col-12">
@@ -607,7 +668,7 @@
             <h1 class="display-6 mb-5">Learn More About Us</h1>
         </div>
         <div class="row g-4 justify-content-center">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="max-height: 30rem;">
                 <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                     <img class="img-fluid mb-4" src="img/reading.png" alt="">
                     <h4 class="mb-3">Company History</h4>
@@ -620,13 +681,13 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="max-height: 30rem;">
                 <div class="container-fluid" style="overflow: hidden; height: 100%;">
-                    <img class="" src="img/cloudflume4.jpg" alt="" style="width: 100%; height: 100%; object-fit: contain;  overflow: hidden; transform: scale(3);">
+                    <img class="" src="img/paintcans1.jpg" alt="" style="width: 100%; height: 100%; object-fit: contain;  overflow: hidden; transform: scale(2);">
                     
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="max-height: 30rem;">
                 <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                     <img class="img-fluid mb-4" src="img/faucet-3.png" alt="">
                     <h4 class="mb-3">Resources</h4>
@@ -639,13 +700,13 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="max-height: 30rem;">
                 <div class="container-fluid" style="overflow: hidden; height: 100%;">
-                    <img class="" src="img/cloudflume5.jpg" alt="" style="width: 100%; height: 100%; object-fit: contain;  overflow: hidden; transform: scale(2);">
+                    <img class="" src="img/paintcans2.jpg" alt="" style="width: 100%; height: 100%; object-fit: contain;  overflow: hidden; transform: scale(2);">
                     
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="max-height: 30rem;">
                 <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                     <img class="img-fluid mb-4" src="img/flask-3.png" alt="">
                     <h4 class="mb-3">PPC Labs</h4>
@@ -658,9 +719,9 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="max-height: 30rem;">
                 <div class="container-fluid" style="overflow: hidden; height: 100%;">
-                    <img class="" src="img/cloudflume3.jpg" alt="" style="width: 100%; height: 100%; object-fit: contain;  overflow: hidden; transform: scale(3);">
+                    <img class="" src="img/paintcans3.jpg" alt="" style="width: 100%; height: 100%; object-fit: contain;  overflow: hidden; transform: scale(3);">
                     
                 </div>
             </div>
@@ -682,10 +743,7 @@
                     <h1 class="fw-bold text-light mb-4">Permite<span class="text-white">Paints</span></h1>
                     <p>High Performance Coatings and Linings</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -697,20 +755,16 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="contact_us.html">Contact Us</a>
                     <a class="btn btn-link" href="products.html">Our Services</a>
                     <a class="btn btn-link" href="industries.html">Industries Served</a>
                     <a class="btn btn-link" href="ppclabs.html">PPC Labs</a>
                     <a class="btn btn-link" href="resources.html">Resources</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">More Links</h5>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
-                    <a class="btn btn-link" href="products.html">Our Services</a>
-                    <a class="btn btn-link" href="industries.html">Industries Served</a>
-                    <a class="btn btn-link" href="ppclabs.html">PPC Labs</a>
-                    <a class="btn btn-link" href="resources.html">Resources</a>
+                    <h5 class="text-light mb-4">Our Location</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.598014719799!2d-84.2036184!3d33.8226854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a8be81f45c55%3A0xaa1614810e44bb8f!2sPermite%20Paint%20Co!5e0!3m2!1sen!2sus!4v1736739931231!5m2!1sen!2sus" 
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -720,9 +774,7 @@
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a href="index.html">PermitePaints</a>, All Right Reserved.
                     </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        
-                       
+                    <div class="col-md-6 text-center text-md-end">  
                     </div>
                 </div>
             </div>

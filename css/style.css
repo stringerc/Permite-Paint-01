@@ -185,9 +185,13 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, 0.129)), url(../img/paint\ loop-2.mp4 ) center center no-repeat;
+    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, 0.129)), url(../img/IMG_2703-WY6a08iPZ-transformed.jpeg ) center center no-repeat;
     background-size: cover;
 }
+
+
+  
+ 
 
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -433,7 +437,12 @@ header a{
     padding-right: 30%;
     box-sizing: border-box;
     color: #fff;
-    text-shadow: 0 5px 10px #0004;
+    text-shadow: 0 10px 15px #0004;
+}
+.industries-carousel .list .item .content .des {
+    text-shadow: 0 0 0.15em #000000;
+    text-shadow: 0 0 0.15em #000000;
+    text-shadow: 0 0 0.15em #000000;
 }
 .industries-carousel .list .item .author{
     font-weight: bold;
@@ -501,6 +510,7 @@ header a{
 }
 .thumbnail .item .content .description{
     font-weight: 300;
+    
 }
 /* arrows */
 .arrows{
